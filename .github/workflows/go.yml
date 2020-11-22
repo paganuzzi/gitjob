@@ -48,6 +48,6 @@ jobs:
         with:
           context: .
           file: ./package/Dockerfile
-          platforms: linux/arm
+          platforms: linux/arm/v7
           push: true
           tags: paganuzzi/gitjob:latest
