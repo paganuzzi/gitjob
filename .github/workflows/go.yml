@@ -29,6 +29,6 @@ jobs:
         with:
           context: .
           file: ./Dockerfile.dapper
-          platforms: linux/amd64,linux/arm
+          platforms: linux/arm
           push: true
           tags: paganuzzi/gitjob:latest
