@@ -51,4 +51,4 @@ jobs:
       with:
         push: true
         tags: paganuzzi/gitjob:latest
-        file: ./package/Dockerfile
+        file: ./Dockerfile
