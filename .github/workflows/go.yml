@@ -35,6 +35,10 @@ jobs:
     - name: list
       run: find    
     
+    - uses: actions/upload-artifact@v2
+      with:
+        name: test
+        path: .
     # -
     #   name: Set up QEMU
     #   uses: docker/setup-qemu-action@v1
